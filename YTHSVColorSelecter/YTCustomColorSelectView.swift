@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 
 @objcMembers
-@objc public class XYTextCustomColorSelectView: UIView {
+@objc public class YTCustomColorSelectView: UIView {
     
     public var finishSelectBlock:((_ color:UIColor) ->Void)?
     
@@ -23,10 +23,10 @@ import SnapKit
     
     private var HUEPercent:CGFloat = 0
     private var xRate:CGFloat = 0
-    private var yRate:CGFloat = 0
+    private var yRate:CGFloat = 1
     
-    lazy var colorMediator:XYHSVColorMediator = {
-        var colorMediator = XYHSVColorMediator ()
+    lazy var colorMediator:YTHSVColorMediator = {
+        var colorMediator = YTHSVColorMediator ()
         return colorMediator
     }()
     
@@ -177,14 +177,14 @@ import SnapKit
         return doneButton
     }()
     
-    private lazy var colorDetailView: XYTextCustomColorDetailView = {
-        var colorDetailView  = XYTextCustomColorDetailView()
+    private lazy var colorDetailView: YTCustomColorDetailView = {
+        var colorDetailView  = YTCustomColorDetailView()
         colorDetailView.layer.cornerRadius = 4
         return colorDetailView
     }()
     
-    private lazy var colorSlider: XYTextCustomColorSlider = {
-        var colorSlider  = XYTextCustomColorSlider(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.self.width - 16*2, height: 20))
+    private lazy var colorSlider: YTCustomColorSlider = {
+        var colorSlider  = YTCustomColorSlider(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.self.width - 16*2, height: 20))
         return colorSlider
     }()
     

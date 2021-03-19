@@ -7,7 +7,7 @@
 
 import UIKit
 
-class XYTextCustomColorSlider: UIView {
+class YTCustomColorSlider: UIView {
     let moveSpace:CGFloat = 8
     @objc public var percentChangedBlock:((_ percent:CGFloat)-> Void)?
     @objc public var percentFinishBlock:((_ percent:CGFloat)-> Void)?

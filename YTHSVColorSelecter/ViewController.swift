@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     
     @objc func showColorView (){
         let height:CGFloat = 284 + 48 + 20;
-        let selectView = XYTextCustomColorSelectView(frame: CGRect(x:0.0,y:100.0,width:self.view.bounds.size.width,height: height))
+        let selectView = YTCustomColorSelectView(frame: CGRect(x:0.0,y:100.0,width:self.view.bounds.size.width,height: height))
         self.view.addSubview(selectView)
         selectView.snp.makeConstraints { (maker) in
             maker.leading.trailing.equalTo(self.view)

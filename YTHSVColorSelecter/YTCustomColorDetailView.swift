@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class XYTextCustomColorDetailView: UIView {
+class YTCustomColorDetailView: UIView {
     public var changePositionBlock:((_ xRate:CGFloat,_ yRate:CGFloat) ->Void)?
     public var selectColor = UIColor.white
     private var currentPosition:CGPoint = CGPoint(x: 0, y: 0)

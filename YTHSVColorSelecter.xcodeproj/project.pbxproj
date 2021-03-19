@@ -16,10 +16,10 @@
 		C86FA961260486000018179E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86FA95F260486000018179E /* LaunchScreen.storyboard */; };
 		C86FA96C260486010018179E /* YTHSVColorSelecterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA96B260486010018179E /* YTHSVColorSelecterTests.swift */; };
 		C86FA977260486010018179E /* YTHSVColorSelecterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA976260486010018179E /* YTHSVColorSelecterUITests.swift */; };
-		C86FA98B260486230018179E /* XYTextCustomColorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA987260486230018179E /* XYTextCustomColorDetailView.swift */; };
-		C86FA98C260486230018179E /* XYTextCustomColorSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA988260486230018179E /* XYTextCustomColorSelectView.swift */; };
-		C86FA98D260486230018179E /* XYTextCustomColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA989260486230018179E /* XYTextCustomColorSlider.swift */; };
-		C86FA98E260486230018179E /* XYHSVColorMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA98A260486230018179E /* XYHSVColorMediator.swift */; };
+		C86FA98B260486230018179E /* YTCustomColorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA987260486230018179E /* YTCustomColorDetailView.swift */; };
+		C86FA98C260486230018179E /* YTCustomColorSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA988260486230018179E /* YTCustomColorSelectView.swift */; };
+		C86FA98D260486230018179E /* YTCustomColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA989260486230018179E /* YTCustomColorSlider.swift */; };
+		C86FA98E260486230018179E /* YTHSVColorMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA98A260486230018179E /* YTHSVColorMediator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +56,10 @@
 		C86FA972260486010018179E /* YTHSVColorSelecterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTHSVColorSelecterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86FA976260486010018179E /* YTHSVColorSelecterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTHSVColorSelecterUITests.swift; sourceTree = "<group>"; };
 		C86FA978260486010018179E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C86FA987260486230018179E /* XYTextCustomColorDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYTextCustomColorDetailView.swift; sourceTree = "<group>"; };
-		C86FA988260486230018179E /* XYTextCustomColorSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYTextCustomColorSelectView.swift; sourceTree = "<group>"; };
-		C86FA989260486230018179E /* XYTextCustomColorSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYTextCustomColorSlider.swift; sourceTree = "<group>"; };
-		C86FA98A260486230018179E /* XYHSVColorMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYHSVColorMediator.swift; sourceTree = "<group>"; };
+		C86FA987260486230018179E /* YTCustomColorDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTCustomColorDetailView.swift; sourceTree = "<group>"; };
+		C86FA988260486230018179E /* YTCustomColorSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTCustomColorSelectView.swift; sourceTree = "<group>"; };
+		C86FA989260486230018179E /* YTCustomColorSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTCustomColorSlider.swift; sourceTree = "<group>"; };
+		C86FA98A260486230018179E /* YTHSVColorMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTHSVColorMediator.swift; sourceTree = "<group>"; };
 		D89BFB82FEB73C015628CC29 /* Pods-YTHSVColorSelecter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTHSVColorSelecter.debug.xcconfig"; path = "Target Support Files/Pods-YTHSVColorSelecter/Pods-YTHSVColorSelecter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +95,6 @@
 				D89BFB82FEB73C015628CC29 /* Pods-YTHSVColorSelecter.debug.xcconfig */,
 				6DF10E121064B323CDC32BBD /* Pods-YTHSVColorSelecter.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,10 +131,10 @@
 		C86FA953260486000018179E /* YTHSVColorSelecter */ = {
 			isa = PBXGroup;
 			children = (
-				C86FA98A260486230018179E /* XYHSVColorMediator.swift */,
-				C86FA987260486230018179E /* XYTextCustomColorDetailView.swift */,
-				C86FA988260486230018179E /* XYTextCustomColorSelectView.swift */,
-				C86FA989260486230018179E /* XYTextCustomColorSlider.swift */,
+				C86FA98A260486230018179E /* YTHSVColorMediator.swift */,
+				C86FA987260486230018179E /* YTCustomColorDetailView.swift */,
+				C86FA988260486230018179E /* YTCustomColorSelectView.swift */,
+				C86FA989260486230018179E /* YTCustomColorSlider.swift */,
 				C86FA954260486000018179E /* AppDelegate.swift */,
 				C86FA956260486000018179E /* SceneDelegate.swift */,
 				C86FA958260486000018179E /* ViewController.swift */,
@@ -321,12 +320,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C86FA98E260486230018179E /* XYHSVColorMediator.swift in Sources */,
+				C86FA98E260486230018179E /* YTHSVColorMediator.swift in Sources */,
 				C86FA959260486000018179E /* ViewController.swift in Sources */,
 				C86FA955260486000018179E /* AppDelegate.swift in Sources */,
-				C86FA98C260486230018179E /* XYTextCustomColorSelectView.swift in Sources */,
-				C86FA98D260486230018179E /* XYTextCustomColorSlider.swift in Sources */,
-				C86FA98B260486230018179E /* XYTextCustomColorDetailView.swift in Sources */,
+				C86FA98C260486230018179E /* YTCustomColorSelectView.swift in Sources */,
+				C86FA98D260486230018179E /* YTCustomColorSlider.swift in Sources */,
+				C86FA98B260486230018179E /* YTCustomColorDetailView.swift in Sources */,
 				C86FA957260486000018179E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

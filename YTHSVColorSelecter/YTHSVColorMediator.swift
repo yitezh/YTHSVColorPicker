@@ -8,7 +8,7 @@
 import UIKit
 
 
-class XYHSVColorMediator: NSObject {
+class YTHSVColorMediator: NSObject {
     
     func getHSVColor(xrate:CGFloat,yrate:CGFloat,mainColor:UIColor) -> UIColor {
         var r:CGFloat = 0
