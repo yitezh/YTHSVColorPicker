@@ -20,6 +20,7 @@
 		C86FA98C260486230018179E /* YTCustomColorSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA988260486230018179E /* YTCustomColorSelectView.swift */; };
 		C86FA98D260486230018179E /* YTCustomColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA989260486230018179E /* YTCustomColorSlider.swift */; };
 		C86FA98E260486230018179E /* YTHSVColorMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA98A260486230018179E /* YTHSVColorMediator.swift */; };
+		C86FA9B4260496640018179E /* Simulator Screen Shot - iPhone 8 - 2021-03-19 at 16.20.26.png in Resources */ = {isa = PBXBuildFile; fileRef = C86FA9B3260496640018179E /* Simulator Screen Shot - iPhone 8 - 2021-03-19 at 16.20.26.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		C86FA988260486230018179E /* YTCustomColorSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTCustomColorSelectView.swift; sourceTree = "<group>"; };
 		C86FA989260486230018179E /* YTCustomColorSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTCustomColorSlider.swift; sourceTree = "<group>"; };
 		C86FA98A260486230018179E /* YTHSVColorMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTHSVColorMediator.swift; sourceTree = "<group>"; };
+		C86FA9B3260496640018179E /* Simulator Screen Shot - iPhone 8 - 2021-03-19 at 16.20.26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2021-03-19 at 16.20.26.png"; sourceTree = "<group>"; };
 		D89BFB82FEB73C015628CC29 /* Pods-YTHSVColorSelecter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTHSVColorSelecter.debug.xcconfig"; path = "Target Support Files/Pods-YTHSVColorSelecter/Pods-YTHSVColorSelecter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +141,7 @@
 				C86FA956260486000018179E /* SceneDelegate.swift */,
 				C86FA958260486000018179E /* ViewController.swift */,
 				C86FA95A260486000018179E /* Main.storyboard */,
+				C86FA9B3260496640018179E /* Simulator Screen Shot - iPhone 8 - 2021-03-19 at 16.20.26.png */,
 				C86FA95D260486000018179E /* Assets.xcassets */,
 				C86FA95F260486000018179E /* LaunchScreen.storyboard */,
 				C86FA962260486000018179E /* Info.plist */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C86FA961260486000018179E /* LaunchScreen.storyboard in Resources */,
+				C86FA9B4260496640018179E /* Simulator Screen Shot - iPhone 8 - 2021-03-19 at 16.20.26.png in Resources */,
 				C86FA95E260486000018179E /* Assets.xcassets in Resources */,
 				C86FA95C260486000018179E /* Main.storyboard in Resources */,
 			);
