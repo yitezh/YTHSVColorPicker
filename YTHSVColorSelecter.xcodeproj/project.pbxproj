@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BC901AD478CDF70693ED48F /* libPods-YTHSVColorSelecter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC0046AA03F55CFBA43F804 /* libPods-YTHSVColorSelecter.a */; };
+		C86FA955260486000018179E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA954260486000018179E /* AppDelegate.swift */; };
+		C86FA957260486000018179E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA956260486000018179E /* SceneDelegate.swift */; };
+		C86FA959260486000018179E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA958260486000018179E /* ViewController.swift */; };
+		C86FA95C260486000018179E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86FA95A260486000018179E /* Main.storyboard */; };
+		C86FA95E260486000018179E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86FA95D260486000018179E /* Assets.xcassets */; };
+		C86FA961260486000018179E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86FA95F260486000018179E /* LaunchScreen.storyboard */; };
+		C86FA96C260486010018179E /* YTHSVColorSelecterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA96B260486010018179E /* YTHSVColorSelecterTests.swift */; };
+		C86FA977260486010018179E /* YTHSVColorSelecterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA976260486010018179E /* YTHSVColorSelecterUITests.swift */; };
+		C86FA98B260486230018179E /* XYTextCustomColorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA987260486230018179E /* XYTextCustomColorDetailView.swift */; };
+		C86FA98C260486230018179E /* XYTextCustomColorSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA988260486230018179E /* XYTextCustomColorSelectView.swift */; };
+		C86FA98D260486230018179E /* XYTextCustomColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA989260486230018179E /* XYTextCustomColorSlider.swift */; };
+		C86FA98E260486230018179E /* XYHSVColorMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FA98A260486230018179E /* XYHSVColorMediator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C86FA968260486010018179E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C86FA949260486000018179E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C86FA950260486000018179E;
+			remoteInfo = YTHSVColorSelecter;
+		};
+		C86FA973260486010018179E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C86FA949260486000018179E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C86FA950260486000018179E;
+			remoteInfo = YTHSVColorSelecter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DF10E121064B323CDC32BBD /* Pods-YTHSVColorSelecter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTHSVColorSelecter.release.xcconfig"; path = "Target Support Files/Pods-YTHSVColorSelecter/Pods-YTHSVColorSelecter.release.xcconfig"; sourceTree = "<group>"; };
+		9BC0046AA03F55CFBA43F804 /* libPods-YTHSVColorSelecter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTHSVColorSelecter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86FA951260486000018179E /* YTHSVColorSelecter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTHSVColorSelecter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86FA954260486000018179E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C86FA956260486000018179E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C86FA958260486000018179E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C86FA95B260486000018179E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C86FA95D260486000018179E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C86FA960260486000018179E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C86FA962260486000018179E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C86FA967260486010018179E /* YTHSVColorSelecterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTHSVColorSelecterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86FA96B260486010018179E /* YTHSVColorSelecterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTHSVColorSelecterTests.swift; sourceTree = "<group>"; };
+		C86FA96D260486010018179E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C86FA972260486010018179E /* YTHSVColorSelecterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTHSVColorSelecterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86FA976260486010018179E /* YTHSVColorSelecterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTHSVColorSelecterUITests.swift; sourceTree = "<group>"; };
+		C86FA978260486010018179E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C86FA987260486230018179E /* XYTextCustomColorDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYTextCustomColorDetailView.swift; sourceTree = "<group>"; };
+		C86FA988260486230018179E /* XYTextCustomColorSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYTextCustomColorSelectView.swift; sourceTree = "<group>"; };
+		C86FA989260486230018179E /* XYTextCustomColorSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYTextCustomColorSlider.swift; sourceTree = "<group>"; };
+		C86FA98A260486230018179E /* XYHSVColorMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYHSVColorMediator.swift; sourceTree = "<group>"; };
+		D89BFB82FEB73C015628CC29 /* Pods-YTHSVColorSelecter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTHSVColorSelecter.debug.xcconfig"; path = "Target Support Files/Pods-YTHSVColorSelecter/Pods-YTHSVColorSelecter.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C86FA94E260486000018179E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC901AD478CDF70693ED48F /* libPods-YTHSVColorSelecter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86FA964260486010018179E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86FA96F260486010018179E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92F5457DB777D083C83BF79F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D89BFB82FEB73C015628CC29 /* Pods-YTHSVColorSelecter.debug.xcconfig */,
+				6DF10E121064B323CDC32BBD /* Pods-YTHSVColorSelecter.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B3AE2B3C7CCA19098A087161 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BC0046AA03F55CFBA43F804 /* libPods-YTHSVColorSelecter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C86FA948260486000018179E = {
+			isa = PBXGroup;
+			children = (
+				C86FA953260486000018179E /* YTHSVColorSelecter */,
+				C86FA96A260486010018179E /* YTHSVColorSelecterTests */,
+				C86FA975260486010018179E /* YTHSVColorSelecterUITests */,
+				C86FA952260486000018179E /* Products */,
+				92F5457DB777D083C83BF79F /* Pods */,
+				B3AE2B3C7CCA19098A087161 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C86FA952260486000018179E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C86FA951260486000018179E /* YTHSVColorSelecter.app */,
+				C86FA967260486010018179E /* YTHSVColorSelecterTests.xctest */,
+				C86FA972260486010018179E /* YTHSVColorSelecterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C86FA953260486000018179E /* YTHSVColorSelecter */ = {
+			isa = PBXGroup;
+			children = (
+				C86FA98A260486230018179E /* XYHSVColorMediator.swift */,
+				C86FA987260486230018179E /* XYTextCustomColorDetailView.swift */,
+				C86FA988260486230018179E /* XYTextCustomColorSelectView.swift */,
+				C86FA989260486230018179E /* XYTextCustomColorSlider.swift */,
+				C86FA954260486000018179E /* AppDelegate.swift */,
+				C86FA956260486000018179E /* SceneDelegate.swift */,
+				C86FA958260486000018179E /* ViewController.swift */,
+				C86FA95A260486000018179E /* Main.storyboard */,
+				C86FA95D260486000018179E /* Assets.xcassets */,
+				C86FA95F260486000018179E /* LaunchScreen.storyboard */,
+				C86FA962260486000018179E /* Info.plist */,
+			);
+			path = YTHSVColorSelecter;
+			sourceTree = "<group>";
+		};
+		C86FA96A260486010018179E /* YTHSVColorSelecterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C86FA96B260486010018179E /* YTHSVColorSelecterTests.swift */,
+				C86FA96D260486010018179E /* Info.plist */,
+			);
+			path = YTHSVColorSelecterTests;
+			sourceTree = "<group>";
+		};
+		C86FA975260486010018179E /* YTHSVColorSelecterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C86FA976260486010018179E /* YTHSVColorSelecterUITests.swift */,
+				C86FA978260486010018179E /* Info.plist */,
+			);
+			path = YTHSVColorSelecterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C86FA950260486000018179E /* YTHSVColorSelecter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C86FA97B260486010018179E /* Build configuration list for PBXNativeTarget "YTHSVColorSelecter" */;
+			buildPhases = (
+				897059BC35A139D618483655 /* [CP] Check Pods Manifest.lock */,
+				C86FA94D260486000018179E /* Sources */,
+				C86FA94E260486000018179E /* Frameworks */,
+				C86FA94F260486000018179E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTHSVColorSelecter;
+			productName = YTHSVColorSelecter;
+			productReference = C86FA951260486000018179E /* YTHSVColorSelecter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C86FA966260486010018179E /* YTHSVColorSelecterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C86FA97E260486010018179E /* Build configuration list for PBXNativeTarget "YTHSVColorSelecterTests" */;
+			buildPhases = (
+				C86FA963260486010018179E /* Sources */,
+				C86FA964260486010018179E /* Frameworks */,
+				C86FA965260486010018179E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C86FA969260486010018179E /* PBXTargetDependency */,
+			);
+			name = YTHSVColorSelecterTests;
+			productName = YTHSVColorSelecterTests;
+			productReference = C86FA967260486010018179E /* YTHSVColorSelecterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C86FA971260486010018179E /* YTHSVColorSelecterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C86FA981260486010018179E /* Build configuration list for PBXNativeTarget "YTHSVColorSelecterUITests" */;
+			buildPhases = (
+				C86FA96E260486010018179E /* Sources */,
+				C86FA96F260486010018179E /* Frameworks */,
+				C86FA970260486010018179E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C86FA974260486010018179E /* PBXTargetDependency */,
+			);
+			name = YTHSVColorSelecterUITests;
+			productName = YTHSVColorSelecterUITests;
+			productReference = C86FA972260486010018179E /* YTHSVColorSelecterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C86FA949260486000018179E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C86FA950260486000018179E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C86FA966260486010018179E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C86FA950260486000018179E;
+					};
+					C86FA971260486010018179E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C86FA950260486000018179E;
+					};
+				};
+			};
+			buildConfigurationList = C86FA94C260486000018179E /* Build configuration list for PBXProject "YTHSVColorSelecter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C86FA948260486000018179E;
+			productRefGroup = C86FA952260486000018179E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C86FA950260486000018179E /* YTHSVColorSelecter */,
+				C86FA966260486010018179E /* YTHSVColorSelecterTests */,
+				C86FA971260486010018179E /* YTHSVColorSelecterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C86FA94F260486000018179E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86FA961260486000018179E /* LaunchScreen.storyboard in Resources */,
+				C86FA95E260486000018179E /* Assets.xcassets in Resources */,
+				C86FA95C260486000018179E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86FA965260486010018179E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86FA970260486010018179E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		897059BC35A139D618483655 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YTHSVColorSelecter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C86FA94D260486000018179E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86FA98E260486230018179E /* XYHSVColorMediator.swift in Sources */,
+				C86FA959260486000018179E /* ViewController.swift in Sources */,
+				C86FA955260486000018179E /* AppDelegate.swift in Sources */,
+				C86FA98C260486230018179E /* XYTextCustomColorSelectView.swift in Sources */,
+				C86FA98D260486230018179E /* XYTextCustomColorSlider.swift in Sources */,
+				C86FA98B260486230018179E /* XYTextCustomColorDetailView.swift in Sources */,
+				C86FA957260486000018179E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86FA963260486010018179E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86FA96C260486010018179E /* YTHSVColorSelecterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86FA96E260486010018179E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86FA977260486010018179E /* YTHSVColorSelecterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C86FA969260486010018179E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C86FA950260486000018179E /* YTHSVColorSelecter */;
+			targetProxy = C86FA968260486010018179E /* PBXContainerItemProxy */;
+		};
+		C86FA974260486010018179E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C86FA950260486000018179E /* YTHSVColorSelecter */;
+			targetProxy = C86FA973260486010018179E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C86FA95A260486000018179E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C86FA95B260486000018179E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C86FA95F260486000018179E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C86FA960260486000018179E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C86FA979260486010018179E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C86FA97A260486010018179E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C86FA97C260486010018179E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D89BFB82FEB73C015628CC29 /* Pods-YTHSVColorSelecter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YTHSVColorSelecter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = om.yiteTest.YTHSVColorSelecter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C86FA97D260486010018179E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF10E121064B323CDC32BBD /* Pods-YTHSVColorSelecter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YTHSVColorSelecter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = om.yiteTest.YTHSVColorSelecter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C86FA97F260486010018179E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YTHSVColorSelecterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = om.yiteTest.YTHSVColorSelecterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTHSVColorSelecter.app/YTHSVColorSelecter";
+			};
+			name = Debug;
+		};
+		C86FA980260486010018179E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YTHSVColorSelecterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = om.yiteTest.YTHSVColorSelecterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTHSVColorSelecter.app/YTHSVColorSelecter";
+			};
+			name = Release;
+		};
+		C86FA982260486010018179E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YTHSVColorSelecterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = om.yiteTest.YTHSVColorSelecterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTHSVColorSelecter;
+			};
+			name = Debug;
+		};
+		C86FA983260486010018179E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YTHSVColorSelecterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = om.yiteTest.YTHSVColorSelecterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTHSVColorSelecter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C86FA94C260486000018179E /* Build configuration list for PBXProject "YTHSVColorSelecter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86FA979260486010018179E /* Debug */,
+				C86FA97A260486010018179E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C86FA97B260486010018179E /* Build configuration list for PBXNativeTarget "YTHSVColorSelecter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86FA97C260486010018179E /* Debug */,
+				C86FA97D260486010018179E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C86FA97E260486010018179E /* Build configuration list for PBXNativeTarget "YTHSVColorSelecterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86FA97F260486010018179E /* Debug */,
+				C86FA980260486010018179E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C86FA981260486010018179E /* Build configuration list for PBXNativeTarget "YTHSVColorSelecterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86FA982260486010018179E /* Debug */,
+				C86FA983260486010018179E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C86FA949260486000018179E /* Project object */;
+}
